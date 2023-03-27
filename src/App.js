@@ -35,8 +35,8 @@ function App() {
           <tbody>
             {users.map((data) => <tr>
               {/* <td>{data.name}</td> */}
-              <td>{data.name}</td>
-              <td>{data.email}</td>
+              <td>{data.title}</td>
+              <td>{data.body}</td>
             </tr>)}
           </tbody>
         </table>
